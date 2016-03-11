@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>Simple Struts CRUD</name>
-    <description>Custom Jira check-In Tool</description>
+    <description>Custom Jira checkIn Tool</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
