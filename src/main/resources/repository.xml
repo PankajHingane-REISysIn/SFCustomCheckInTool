@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<service>
+   <repository>
+	<sql alias="select.pmo.user" operation="select">
+	   select Id from Account   
+	</sql>
+   </repository>
+</service>
+
+

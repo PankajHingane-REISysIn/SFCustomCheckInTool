@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<service>
+	<mapper>
+		
+
+		<map sfObject="User" class="org.apache.struts.rei.checkin.model.UserVO">
+		</map>
+		<map sfObject="Account" class="org.apache.struts.rei.checkin.model.AccountVO">
+		</map>
+		
+	</mapper>
+</service>   

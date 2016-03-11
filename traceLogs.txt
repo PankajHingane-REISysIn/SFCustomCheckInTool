@@ -1,0 +1,382 @@
+WSC: Creating a new connection to https://www.salesforce.com/services/Soap/u/36.0 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>shah@force.pmo</m:username>
+   <m:password>2Amange1</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Cache-Control=[s-maxage=0]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=jrx7FM1KQWiVqzAB6gs4Fg;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:31:38 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Content-Length=[797]
+Date=[Fri, 11 Mar 2016 10:31:38 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <soapenv:Body>
+        <loginResponse>
+          <result>
+            <metadataServerUrl>https://na11.salesforce.com/services/Soap/m/36.0/00DG0000000kMVy</metadataServerUrl>
+            <passwordExpired>false</passwordExpired>
+            <sandbox>false</sandbox>
+            <serverUrl>https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy</serverUrl>
+            <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+            <userId>005G0000003kp6VIAQ</userId>
+            <userInfo>
+              <accessibilityMode>false</accessibilityMode>
+              <currencySymbol>$</currencySymbol>
+              <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+              <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+              <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+              <orgHasPersonAccounts>false</orgHasPersonAccounts>
+              <organizationId>00DG0000000kMVyMAM</organizationId>
+              <organizationMultiCurrency>false</organizationMultiCurrency>
+              <organizationName>REI Systems, Inc.</organizationName>
+              <profileId>00eG0000001DkquIAC</profileId>
+              <roleId xsi:nil="true"/>
+                <sessionSecondsValid>43200</sessionSecondsValid>
+                <userDefaultCurrencyIsoCode xsi:nil="true"/>
+                  <userEmail>shahnavazk@reisystems.com</userEmail>
+                  <userFullName>Shah PMO</userFullName>
+                  <userId>005G0000003kp6VIAQ</userId>
+                  <userLanguage>en_US</userLanguage>
+                  <userLocale>en_US</userLocale>
+                  <userName>shah@force.pmo</userName>
+                  <userTimeZone>America/Indiana/Indianapolis</userTimeZone>
+                  <userType>Standard</userType>
+                  <userUiSkin>Theme3</userUiSkin>
+              </userInfo>
+            </result>
+          </loginResponse>
+        </soapenv:Body>
+      </soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://www.salesforce.com/services/Soap/u/36.0 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>shah@force.pmo</m:username>
+   <m:password>2Amange1</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Cache-Control=[s-maxage=0]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=1_6H1BDeQai5ybIQkgp_9g;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:33:09 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Content-Length=[797]
+Date=[Fri, 11 Mar 2016 10:33:08 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <soapenv:Body>
+        <loginResponse>
+          <result>
+            <metadataServerUrl>https://na11.salesforce.com/services/Soap/m/36.0/00DG0000000kMVy</metadataServerUrl>
+            <passwordExpired>false</passwordExpired>
+            <sandbox>false</sandbox>
+            <serverUrl>https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy</serverUrl>
+            <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+            <userId>005G0000003kp6VIAQ</userId>
+            <userInfo>
+              <accessibilityMode>false</accessibilityMode>
+              <currencySymbol>$</currencySymbol>
+              <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+              <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+              <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+              <orgHasPersonAccounts>false</orgHasPersonAccounts>
+              <organizationId>00DG0000000kMVyMAM</organizationId>
+              <organizationMultiCurrency>false</organizationMultiCurrency>
+              <organizationName>REI Systems, Inc.</organizationName>
+              <profileId>00eG0000001DkquIAC</profileId>
+              <roleId xsi:nil="true"/>
+                <sessionSecondsValid>43200</sessionSecondsValid>
+                <userDefaultCurrencyIsoCode xsi:nil="true"/>
+                  <userEmail>shahnavazk@reisystems.com</userEmail>
+                  <userFullName>Shah PMO</userFullName>
+                  <userId>005G0000003kp6VIAQ</userId>
+                  <userLanguage>en_US</userLanguage>
+                  <userLocale>en_US</userLocale>
+                  <userName>shah@force.pmo</userName>
+                  <userTimeZone>America/Indiana/Indianapolis</userTimeZone>
+                  <userType>Standard</userType>
+                  <userUiSkin>Theme3</userUiSkin>
+              </userInfo>
+            </result>
+          </loginResponse>
+        </soapenv:Body>
+      </soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://www.salesforce.com/services/Soap/u/36.0 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>shah@force.pmo</m:username>
+   <m:password>2Amange1</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Cache-Control=[s-maxage=0]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=TqSMS9GpRSympwHYwritow;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:37:45 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Content-Length=[797]
+Date=[Fri, 11 Mar 2016 10:37:45 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <soapenv:Body>
+        <loginResponse>
+          <result>
+            <metadataServerUrl>https://na11.salesforce.com/services/Soap/m/36.0/00DG0000000kMVy</metadataServerUrl>
+            <passwordExpired>false</passwordExpired>
+            <sandbox>false</sandbox>
+            <serverUrl>https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy</serverUrl>
+            <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+            <userId>005G0000003kp6VIAQ</userId>
+            <userInfo>
+              <accessibilityMode>false</accessibilityMode>
+              <currencySymbol>$</currencySymbol>
+              <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+              <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+              <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+              <orgHasPersonAccounts>false</orgHasPersonAccounts>
+              <organizationId>00DG0000000kMVyMAM</organizationId>
+              <organizationMultiCurrency>false</organizationMultiCurrency>
+              <organizationName>REI Systems, Inc.</organizationName>
+              <profileId>00eG0000001DkquIAC</profileId>
+              <roleId xsi:nil="true"/>
+                <sessionSecondsValid>43200</sessionSecondsValid>
+                <userDefaultCurrencyIsoCode xsi:nil="true"/>
+                  <userEmail>shahnavazk@reisystems.com</userEmail>
+                  <userFullName>Shah PMO</userFullName>
+                  <userId>005G0000003kp6VIAQ</userId>
+                  <userLanguage>en_US</userLanguage>
+                  <userLocale>en_US</userLocale>
+                  <userName>shah@force.pmo</userName>
+                  <userTimeZone>America/Indiana/Indianapolis</userTimeZone>
+                  <userType>Standard</userType>
+                  <userUiSkin>Theme3</userUiSkin>
+              </userInfo>
+            </result>
+          </loginResponse>
+        </soapenv:Body>
+      </soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Header>
+  <SessionHeader xmlns="urn:partner.soap.sforce.com">
+   <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+  </SessionHeader>
+ </env:Header>
+ <env:Body>
+  <m:query xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:queryString>select id from Account</m:queryString>
+  </m:query>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+Transfer-Encoding=[chunked]
+null=[HTTP/1.1 200 OK]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=bkuZVaG3SXKD6ItpjuxZ8A;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:37:48 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Date=[Fri, 11 Mar 2016 10:37:48 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com">
+      <soapenv:Header>
+        <LimitInfoHeader>
+          <limitInfo>
+            <current>175</current>
+            <limit>25000</limit>
+            <type>API REQUESTS</type>
+        </limitInfo>
+      </LimitInfoHeader>
+    </soapenv:Header>
+      <soapenv:Body>
+        <queryResponse>
+          <result xsi:type="QueryResult">
+            <done>true</done>
+            <queryLocator xsi:nil="true"/>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSJIAZ</sf:Id>
+                <sf:Id>001G000001CofSJIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSKIAZ</sf:Id>
+                <sf:Id>001G000001CofSKIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSLIAZ</sf:Id>
+                <sf:Id>001G000001CofSLIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001wqQRfIAM</sf:Id>
+                <sf:Id>001G000001wqQRfIAM</sf:Id>
+            </records>
+              <size>4</size>
+          </result>
+        </queryResponse>
+      </soapenv:Body>
+    </soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://www.salesforce.com/services/Soap/u/36.0 Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Body>
+  <m:login xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:username>shah@force.pmo</m:username>
+   <m:password>2Amange1</m:password>
+  </m:login>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+null=[HTTP/1.1 200 OK]
+Cache-Control=[s-maxage=0]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=HeQzlmUJQ5KbcCjxkASzcg;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:40:09 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Content-Length=[797]
+Date=[Fri, 11 Mar 2016 10:40:08 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <soapenv:Body>
+        <loginResponse>
+          <result>
+            <metadataServerUrl>https://na11.salesforce.com/services/Soap/m/36.0/00DG0000000kMVy</metadataServerUrl>
+            <passwordExpired>false</passwordExpired>
+            <sandbox>false</sandbox>
+            <serverUrl>https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy</serverUrl>
+            <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+            <userId>005G0000003kp6VIAQ</userId>
+            <userInfo>
+              <accessibilityMode>false</accessibilityMode>
+              <currencySymbol>$</currencySymbol>
+              <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+              <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+              <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+              <orgHasPersonAccounts>false</orgHasPersonAccounts>
+              <organizationId>00DG0000000kMVyMAM</organizationId>
+              <organizationMultiCurrency>false</organizationMultiCurrency>
+              <organizationName>REI Systems, Inc.</organizationName>
+              <profileId>00eG0000001DkquIAC</profileId>
+              <roleId xsi:nil="true"/>
+                <sessionSecondsValid>43200</sessionSecondsValid>
+                <userDefaultCurrencyIsoCode xsi:nil="true"/>
+                  <userEmail>shahnavazk@reisystems.com</userEmail>
+                  <userFullName>Shah PMO</userFullName>
+                  <userId>005G0000003kp6VIAQ</userId>
+                  <userLanguage>en_US</userLanguage>
+                  <userLocale>en_US</userLocale>
+                  <userName>shah@force.pmo</userName>
+                  <userTimeZone>America/Indiana/Indianapolis</userTimeZone>
+                  <userType>Standard</userType>
+                  <userUiSkin>Theme3</userUiSkin>
+              </userInfo>
+            </result>
+          </loginResponse>
+        </soapenv:Body>
+      </soapenv:Envelope>
+------------ Response end   ----------
+WSC: Creating a new connection to https://na11.salesforce.com/services/Soap/u/36.0/00DG0000000kMVy Proxy = DIRECT username null
+------------ Request start   ----------
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope
+   xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <env:Header>
+  <SessionHeader xmlns="urn:partner.soap.sforce.com">
+   <sessionId>00DG0000000kMVy!ARUAQHNAg_AvlDU7UZ8OGPOiG8UHYflyXE236.lu2T1ze.MZW41DnwBf7Fdz5YJNNludAWuw.KH1rGvgaz3gyyskGINZCf2G</sessionId>
+  </SessionHeader>
+ </env:Header>
+ <env:Body>
+  <m:query xmlns:m="urn:partner.soap.sforce.com" xmlns:sobj="urn:sobject.partner.soap.sforce.com">
+   <m:queryString>select id from Account</m:queryString>
+  </m:query>
+ </env:Body>
+</env:Envelope>
+------------ Request end   ----------
+Transfer-Encoding=[chunked]
+null=[HTTP/1.1 200 OK]
+Content-Encoding=[gzip]
+Set-Cookie=[BrowserId=qB8vCSQqSGO_23Y7SvXCnw;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:40:12 GMT]
+Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
+Date=[Fri, 11 Mar 2016 10:40:12 GMT]
+Content-Type=[text/xml;charset=UTF-8]
+------------ Response start ----------
+  <?xml version="1.0" encoding="UTF-8"?>
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sf="urn:sobject.partner.soap.sforce.com">
+      <soapenv:Header>
+        <LimitInfoHeader>
+          <limitInfo>
+            <current>177</current>
+            <limit>25000</limit>
+            <type>API REQUESTS</type>
+        </limitInfo>
+      </LimitInfoHeader>
+    </soapenv:Header>
+      <soapenv:Body>
+        <queryResponse>
+          <result xsi:type="QueryResult">
+            <done>true</done>
+            <queryLocator xsi:nil="true"/>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSJIAZ</sf:Id>
+                <sf:Id>001G000001CofSJIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSKIAZ</sf:Id>
+                <sf:Id>001G000001CofSKIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001CofSLIAZ</sf:Id>
+                <sf:Id>001G000001CofSLIAZ</sf:Id>
+            </records>
+              <records xsi:type="sf:sObject">
+                <sf:type>Account</sf:type>
+                <sf:Id>001G000001wqQRfIAM</sf:Id>
+                <sf:Id>001G000001wqQRfIAM</sf:Id>
+            </records>
+              <size>4</size>
+          </result>
+        </queryResponse>
+      </soapenv:Body>
+    </soapenv:Envelope>
+------------ Response end   ----------
