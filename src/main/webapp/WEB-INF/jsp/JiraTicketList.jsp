@@ -13,17 +13,11 @@ td {
 <title><s:property value="#title" /></title>
 </head>
 <body>
-<s:form action="setLastUsedProject" method="post">
-			<s:if test="lastUsedProject!=null && lastUsedProject!=''">
-			Selected project:
-			<s:property value="lastUsedProject" />
-		</s:if>
-		<s:else>
-			Please select project:
-			<s:select name="lastUsedProject" value="%{Projects.Id}" list="Projects"
+<%-- <s:form action="getJiraTicketList" method="post"> --%>
+			Please select Jira ticket number:
+			<s:select name="selectedJiraTicket" value="%{jiraTickets.Id}" list="jiraTickets"
 				listKey="Id" listValue="Name" />
-		</s:else>
-		<s:submit value="continue" />
-	</s:form>
+<%-- 		<s:submit value="continue" /> --%>
+<%-- 	</s:form> --%>
 </body>
 </html>

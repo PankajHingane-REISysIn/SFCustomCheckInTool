@@ -31,7 +31,7 @@ public class ProjectAction extends ActionSupport implements Preparable,SessionAw
     
     /**
      */
-    public String save() {
+    public String saveLastUsedProject() {
 		return SUCCESS;
     }
 

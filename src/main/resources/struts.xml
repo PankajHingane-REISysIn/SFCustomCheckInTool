@@ -36,5 +36,13 @@
             <result name="success" type="redirectAction">getProject</result>
             <result name="error">/WEB-INF/jsp/employeeForm.jsp</result>
         </action>
+        <action name="setLastUsedProject" class="org.apache.struts.rei.checkin.action.ProjectAction" method="saveLastUsedProject">
+            <result name="success" type="redirectAction">getJiraTicketList</result>
+            <result name="error">/WEB-INF/jsp/employeeForm.jsp</result>
+        </action>
+        <action name="getJiraTicketList" class="org.apache.struts.rei.checkin.action.JiraAction" method="getJiraTicketList">
+            <result name="success">/WEB-INF/jsp/JiraTicketList.jsp</result>
+            <interceptor-ref name="basicStack"/>
+        </action>
     </package>
 </struts>

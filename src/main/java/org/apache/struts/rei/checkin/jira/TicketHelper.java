@@ -3,6 +3,8 @@ package org.apache.struts.rei.checkin.jira;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.struts.rei.checkin.model.JiraTicket;
+
 import com.atlassian.jira.rest.client.JiraRestClient;
 import com.atlassian.jira.rest.client.domain.BasicIssue;
 import com.atlassian.jira.rest.client.domain.SearchResult;
@@ -10,6 +12,7 @@ import com.atlassian.jira.rest.client.domain.SearchResult;
 public class TicketHelper {
 	private List<SearchCriteriaBean> searchCriteriaList;
 	private JiraRestClient jiraRestClient;
+	private List<JiraTicket> jiraTicketList;
 	
 	public TicketHelper(JiraRestClient jiraRestClient) {
 		this.jiraRestClient = jiraRestClient;
@@ -19,7 +22,7 @@ public class TicketHelper {
 		this.searchCriteriaList = searchCriteriaList;
 		// TODO Auto-generated constructor stub
 	}
-	public List<String> getOpenTicketList(String projectName, String userName) throws Exception {
+	public List<JiraTicket> getOpenTicketList(String projectName, String userName) throws Exception {
 		/*System.out.println("===============1");
 		List<String> issueList = new ArrayList<String>();
 		
@@ -37,8 +40,8 @@ public class TicketHelper {
 		return getTicketList();
 	}
 	
-	public List<String> getTicketList() throws Exception {
-		List<String> issueList = new ArrayList<String>();
+	public List<JiraTicket> getTicketList() throws Exception {
+		jiraTicketList = new ArrayList<JiraTicket>();
 		if(searchCriteriaList.isEmpty()) {
 			throw new Exception("Please define search criteria.");
 		}
@@ -50,16 +53,18 @@ public class TicketHelper {
 		//return first 50 records
 		SearchResult searchResult = jiraRestClient.getSearchClient().searchJql(jqlStr).claim();
 		for (BasicIssue issue : searchResult.getIssues()) {
-			System.out.println(issue.getKey());
-			issueList.add(issue.getKey());
+			JiraTicket j = new JiraTicket();
+			j.setId(issue.getKey());
+			j.setName(issue.getKey());
+			jiraTicketList.add(j);
 		}
-		return issueList;
+		return jiraTicketList;
 	}
 	
 	public static void main(String[] args) throws Exception {
 		JIRAConnection jira = new JIRAConnection("pankaj.hingane", "Ved@123.com");
-		/*new TicketHelper(jira.getConnection()).getOpenTicketList("State of MA - Internal", "pankaj.hingane");
-		*/
+		new TicketHelper(jira.getConnection()).getOpenTicketList("State of MA - Internal", "pankaj.hingane");
+		
 		List<SearchCriteriaBean> searchCriteriaList = new ArrayList<SearchCriteriaBean>();
 		searchCriteriaList.add(new SearchCriteriaBean("project", "=", "\"State of MA - Internal\""));
 		searchCriteriaList.add(new SearchCriteriaBean("status", "in", "(Open)"));
