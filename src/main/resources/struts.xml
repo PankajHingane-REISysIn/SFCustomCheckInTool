@@ -32,7 +32,7 @@
             <result name="success">/WEB-INF/jsp/ProjectList.jsp</result>
             <interceptor-ref name="basicStack"/>
         </action>
-        <action name="login" class="org.apache.struts.rei.checkin.action.LoginAction" method="save">
+        <action name="login" class="org.apache.struts.rei.checkin.action.LoginAction" method="login">
             <result name="success" type="redirectAction">getProject</result>
             <result name="error">/WEB-INF/jsp/employeeForm.jsp</result>
         </action>

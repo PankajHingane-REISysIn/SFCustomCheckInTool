@@ -8,7 +8,7 @@
     <title><s:property value="#title"/></title>
 </head>
 <body>
-<s:property value="IlastUsedProjectd"/>
+<s:property value="lastUsedProject"/>
     <s:select name="Projects.Id" value="%{Projects.Id}" list="Projects" listKey="Id" listValue="Name"/>
 <table class="borderAll">
     <tr>
