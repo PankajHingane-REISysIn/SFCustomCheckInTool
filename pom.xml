@@ -62,7 +62,7 @@
 			<artifactId>dwr</artifactId>
 			<version>1.1-beta-3</version>
 		</dependency>
-		<!-- <dependency> -->
+		<!-- <dependency> test -->
 		<!-- <groupId>force.custom.rei</groupId> -->
 		<!-- <artifactId>force-custom</artifactId> -->
 		<!-- <version>1.0</version> -->
@@ -187,31 +187,6 @@
 										<destFileName>webapp-runner.jar</destFileName>
 									</artifactItem>
 								</artifactItems>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
-					<executions>
-						<execution>
-							<id>clean-jar-artifacts</id>
-							<phase>install</phase>
-							<goals>
-								<goal>clean</goal>
-							</goals>
-							<configuration>
-								<excludeDefaultDirectories>true</excludeDefaultDirectories>
-								<filesets>
-									<fileset>
-										<directory>target</directory>
-										<excludes>
-											<exclude>*.war</exclude>
-											<exclude>dependency/*.jar</exclude>
-										</excludes>
-									</fileset>
-								</filesets>
 							</configuration>
 						</execution>
 					</executions>
