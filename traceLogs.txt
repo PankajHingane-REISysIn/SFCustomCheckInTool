@@ -14,7 +14,7 @@ WSC: Creating a new connection to https://www.salesforce.com/services/Soap/u/36.
 null=[HTTP/1.1 200 OK]
 Cache-Control=[s-maxage=0]
 Content-Encoding=[gzip]
-Set-Cookie=[BrowserId=jrx7FM1KQWiVqzAB6gs4Fg;Path=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:31:38 GMT]
+Set-Cookie=[BrowserId=jrx7FM1KQWiVqzAB6gs4Fg;P  eeeerath=/;Domain=.salesforce.com;Expires=Tue, 10-May-2016 10:31:38 GMT]
 Expires=[Thu, 01 Jan 1970 00:00:00 GMT]
 Content-Length=[797]
 Date=[Fri, 11 Mar 2016 10:31:38 GMT]
