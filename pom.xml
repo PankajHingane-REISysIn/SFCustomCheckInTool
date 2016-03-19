@@ -62,7 +62,7 @@
 			<artifactId>dwr</artifactId>
 			<version>1.1-beta-3</version>
 		</dependency>
-		<!-- <dependency> -->
+		<!--test <dependency> -->
 		<!-- <groupId>force.custom.rei</groupId> -->
 		<!-- <artifactId>force-custom</artifactId> -->
 		<!-- <version>1.0</version> -->
@@ -72,9 +72,9 @@
 		<!-- <dependency> -->
 		<!-- <groupId>daily.custom.rei</groupId> -->
 		<!-- <artifactId>daily-customrei</artifactId> -->
-		<!-- <version>1.0</version> -->
+		<!-- <version>1.0</ version> -->
 		<!-- <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/everyDayUtils.jar</systemPath> -->
-		<!-- <scope>system</scope> -->
+		<!--test <scope>system</scope> -->
 		<!-- </dependency> -->
 		<dependency>
 			<groupId>com.force.api</groupId>
